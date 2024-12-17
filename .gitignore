@@ -14,9 +14,6 @@ Thumbs.db
 *.cache
 *.tmp
 
-assets/video/*
-assets/img/*
-
 .env
 .env.local
 .env.*.local
