@@ -1,0 +1,15 @@
+// Import all of Bootstrap's CSS
+$success: #7b2cbf;
+@import "bootstrap/scss/bootstrap";
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+.btn {
+  border-radius: 0 2rem 0 2rem;
+}
+
+.card {
+  max-width: 300px;
+  @media (max-width: 767px) {
+    max-width: 100%;
+  }
+}
